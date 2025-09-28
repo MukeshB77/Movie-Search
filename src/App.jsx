@@ -8,8 +8,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar/>
+    
+      <BrowserRouter basename="/Movie-Search">
+        <Navbar />
         <Routes>
           <Route path='/' element={<><Banner /><Movies /></>} />
           <Route path='/watchlist' element={<WatchList />} />

@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/Movie-Search/' // Add this line for GitHub Pages
 })
